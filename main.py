@@ -852,20 +852,21 @@ async def txt_handler(bot: Client, m: Message):
 
             try:
                 cc = (
-    f"<b>──────  <i>VID ID </i>: {str(count).zfill(3)}  ──────</b>\n\n"
-    f"<b>🎥 ᴛɪᴛʟᴇ</b> : {name1}\n\n"
+    f"<b>─•────  <b>[🎥]  Vɪᴅ Iᴅ </b>: {str(count).zfill(3)}  ─•────</b>\n\n"
+                    
+    f"<b>🎥 Vɪᴅᴇᴏ Tɪᴛʟᴇ</b> : {name1}\n\n"
     f"<blockquote>"
-    f"<b>💠 ʙᴀᴛᴄʜ :</b> {b_name}\n"
+    f"<b>📚 Bᴀᴛᴄʜ Nᴀᴍᴇ :</b> {b_name}\n"
     f"</blockquote>\n"
-    f"<b> 📥 ᴇxᴛʀᴀᴄᴛᴇᴅ ʙʏ :</b> {CR}"
+    f"<b> 📥 Exᴛʀᴀᴄᴛᴇᴅ Bʏ :</b> {CR}"
 )
                 cc1 = (
-    f"<b>──────  <i>PDF ID </i>: {str(count).zfill(3)}  ──────</b>\n\n"
-    f"<b>📑 ᴛɪᴛʟᴇ</b> : {name1}\n\n"
+    f"<b>──────  <b>PᴅF Iᴅ </b>: {str(count).zfill(3)}  ──────</b>\n\n"
+    f"<b>📑 Fɪʟᴇ Tɪᴛʟᴇ</b> : {name1}\n\n"
     f"<blockquote>"
-    f"<b>💠 ʙᴀᴛᴄʜ :</b> {b_name}\n"
+    f"<b>📚 Bᴀᴛᴄʜ Nᴀᴍᴇ :</b> {b_name}\n"
     f"</blockquote>\n"
-    f"<b> 📥 ᴇxᴛʀᴀᴄᴛᴇᴅ ʙʏ :</b> {CR}"
+    f"<b> 📥 Exᴛʀᴀᴄᴛᴇᴅ Bʏ :</b> {CR}"
 )
                 cczip = f'[📁]Zip Id : {str(count).zfill(3)}\n**Zip Title :** `{name1} .zip`\n<blockquote><b>Batch Name :</b> {b_name}</blockquote>\n\n**Extracted by➤**{CR}\n' 
                 ccimg = (
